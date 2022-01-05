@@ -3,12 +3,12 @@ This repository introduces common techniques to analyse time series data and mak
 
 ## Replication Requirements
 The following R packages outside of the base set of functions that will be used in this time series data analytics:
-1. library(skimr)          # data summary and description
-2. library(tidyverse)      # data manipulation and visualization
-3. library(ggplot2)        # data visualization
-4. library(lubridate)      # easily work with dates and times
-5. library(fpp2)           # working with time series data
-6. library(zoo)            # working with time series data
+- library(skimr)          # data summary and description
+- library(tidyverse)      # data manipulation and visualization
+- library(ggplot2)        # data visualization
+- library(lubridate)      # easily work with dates and times
+- library(fpp2)           # working with time series data
+- library(zoo)            # working with time series data
 
 ## Introduction
 Moving average is one of smoothing methods (i.e., a family of forecasting methods) that average values over multiple periods in order to reduce the noise and uncover patterns in the data. This method averages values from a window of consecutive time periods, thereby generating a series of averages. The approaches primarily differ based on the number of values averaged, how the average is computed, and how many times averaging is performed. This repo will walk you through the basics of performing moving averages.
